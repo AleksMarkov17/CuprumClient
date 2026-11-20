@@ -2,11 +2,11 @@
 
 ![LeviLauncher Logo](https://avatars.githubusercontent.com/u/78095377?s=200&v=4)
 
-# LeviLauncher — Android version
+# CuprumClient — Android
 
 ![Banner](https://camo.githubusercontent.com/bd7bd77cb422a267057d9863095b239b096d4f46dc831a37b45867a9acfad697/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d576176696e6726636f6c6f723d74696d654772616469656e74266865696768743d33303026616e696d6174696f6e3d66616465496e2673656374696f6e3d68656164657226746578743d4c6576694d4326666f6e7453697a653d313230)
 
-**A lightweight Android launcher for Minecraft Bedrock Edition**
+**An Android Minecraft Bedrock launcher based on LeviLauncher**
 
 [![GitHub Release](https://img.shields.io/github/v/release/LiteLDev/LeviLauncher-Android?style=flat-square&color=blue)](https://github.com/LiteLDev/LeviLauncher-Android/releases)
 [![License: Apache 2.0](https://img.shields.io/github/license/LiteLDev/LeviLauncher-Android)](https://github.com/LiteLDev/LeviLauncher-Android/blob/main/LICENSE)
@@ -23,9 +23,9 @@
 
 ## Introduction
 
-This repository is the **Android version** of LeviLauncher; the **Windows version** is developed in [LiteLDev/LeviLauncher](https://github.com/LiteLDev/LeviLauncher). Both share one guide at [levimc.org/LeviLauncher](https://levimc.org/LeviLauncher/) (Windows / Android tabs); native mod development is documented in the [LeviLamina docs](https://levimc.org/LeviLamina/developer_guides/android/). There is no iOS version, and none is planned.
+CuprumClient is an independent project based on the **Android version** of LeviLauncher; the **Windows version** is developed in [LiteLDev/LeviLauncher](https://github.com/LiteLDev/LeviLauncher). Both share one guide at [levimc.org/LeviLauncher](https://levimc.org/LeviLauncher/) (Windows / Android tabs); native mod development is documented in the [LeviLamina docs](https://levimc.org/LeviLamina/developer_guides/android/). There is no iOS version, and none is planned.
 
-LeviLauncher is a lightweight, open-source Android launcher specifically designed for legitimate players of Minecraft Bedrock Edition (MCBE). It works alongside your Google Play installation of Minecraft, allowing you to manage multiple game versions and extend functionality with native mods.
+CuprumClient builds on LeviLauncher's lightweight, open-source Android launcher specifically designed for legitimate players of Minecraft Bedrock Edition (MCBE). It works alongside your Google Play installation of Minecraft, allowing you to manage multiple game versions and extend functionality with native mods.
 
 LeviLauncher enables you to import official Minecraft APKs and run them inside the launcher, without installing each version on the system. The official Minecraft app from Google Play must still be installed on the device. The launcher supports loading native mods to enhance gameplay, provides robust multi-version management with complete isolation between installations, and includes built-in tools for managing resource packs and worlds. Whether you're looking to organize different game versions, test modifications, or optimize your gaming experience, LeviLauncher offers the flexibility you need.
 
@@ -106,7 +106,7 @@ If you want to build LeviLauncher from source or contribute to development, foll
 
 > **Build Tip:** For faster builds during development, use `Build > Make Project` to compile incrementally instead of full rebuilds.
 
-The project root is named `levilauncher` in the Gradle settings, while the repository is `LeviLauncher-Android`. To build from the command line:
+The project root is named `CuprumClient` in the Gradle settings, while the repository is `LeviLauncher-Android`. To build from the command line:
 
 ```bash
 ./gradlew assembleDebug
